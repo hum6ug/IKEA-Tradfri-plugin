@@ -21,7 +21,6 @@ RUN ./install-coap-client.sh
 
 WORKDIR /usr/src/build/pytradfri
 RUN python3 setup.py install
-
 RUN pip3 install twisted
 
 WORKDIR /usr/src/app
